@@ -91,7 +91,7 @@ This project demonstrates an **end-to-end data engineering pipeline** on AWS usi
 
 ```sql
 SELECT snapshot, product_name, SUM(sales) AS total_sales
-FROM superstore.orders
+FROM db_ayman_superstore.orders
 WHERE snapshot BETWEEN '2025-04-01' AND '2025-04-07'
 GROUP BY snapshot, product_name
 ORDER BY snapshot, total_sales DESC;
