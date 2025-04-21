@@ -9,7 +9,7 @@ This project demonstrates an **end-to-end data engineering pipeline** on AWS usi
 - **Goal**: Analyze daily Superstore orders using a scalable and cost-effective cloud pipeline.
 - **Dataset**: Retail order data, partitioned by date.
 - **Architecture**:  
-  ![AWS Pipeline Diagram](https://github.com/your-username/your-repo/raw/main/your-diagram.png) 
+  ![AWS Pipeline Diagram](docs/super-store-end-to-end.png)
 
 ---
 
