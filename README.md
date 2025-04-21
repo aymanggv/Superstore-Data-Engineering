@@ -29,7 +29,7 @@ This project demonstrates an **end-to-end data engineering pipeline** on AWS usi
 
 - **Bucket Name**: `superstore`
 - **Main Folder**: `/orders`
-- **Partitioning** `:s3://superstore/orders/snapshot=01-04-2025/orders.csv` `s3://superstore/orders/snapshot=02-04-2025/orders.csv` ...
+- **Partitioning**: `s3://superstore/orders/snapshot=01-04-2025/orders.csv` `s3://superstore/orders/snapshot=02-04-2025/orders.csv` ...
   
 > Partitioning the data by `snapshot` date improves **query performance** and **reduces cost** in Athena by scanning less data.
 
